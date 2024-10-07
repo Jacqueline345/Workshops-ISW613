@@ -90,15 +90,3 @@ function authenticate($username, $password): bool|array|null
     return $results;
 }
 ?>
-<script>
-    function passRowToForm() {
-    // obtiene la fila seleccionada
-    var row = $(this).parent().parent();
-    // itera las celdas de la fila menos la que tiene el botón
-    $(row).find('td:not-last-of-type').each(function(i) {
-        // por medio de eq obtenemos el input por índice
-        // y le agregamos el contenido de la celda
-        $('#form input').eq(i).val($(this.text());
-    });
-}
-</script>
