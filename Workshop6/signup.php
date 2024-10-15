@@ -8,6 +8,11 @@
 
   $provinces = getProvinces();
   $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
+  $provinces = getProvinces();
+  $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
+  $provinces = getProvinces();
+  $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
+
 ?>
 <?php require('inc/header.php')?>
   <div class="container-fluid">
