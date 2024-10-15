@@ -3,7 +3,7 @@
   session_start();
   if ($_SESSION && $_SESSION['user']){
     //user already logged in
-    header('Location: /dashboard.php');
+    header('Location: /index.php');
   }
 
   $provinces = getProvinces();
