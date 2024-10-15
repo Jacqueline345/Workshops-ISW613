@@ -1,10 +1,7 @@
 <?php
   include('utils/functions.php');
 
-  $provinces = getProvinces();
-  $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
-  $provinces = getProvinces();
-  $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
+
   $provinces = getProvinces();
   $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
 
