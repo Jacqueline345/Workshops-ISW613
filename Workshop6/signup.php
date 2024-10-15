@@ -48,7 +48,7 @@
       </div>
       <div class="form-group">
         <label for="confirm-password">Confirm password</label>
-        <input id="confirm-password" class="form-control" type="text" name="confirm-password">
+        <input id="confirm-password" class="form-control" type="password" name="confirm-password">
       </div>
       <div class="form-group">
         <label class="sr-only" for="">Profile Picture</label>
