@@ -47,6 +47,10 @@
         <input id="password" class="form-control" type="password" name="password">
       </div>
       <div class="form-group">
+        <label for="confirm-password">Confirm password</label>
+        <input id="confirm-password" class="form-control" type="text" name="confirm-password">
+      </div>
+      <div class="form-group">
         <label class="sr-only" for="">Profile Picture</label>
         <input type="file" class="form-control" name="profilePic" id="profilePic" accept="image/png, image/jpeg" multiple="true">
       </div>
