@@ -1,10 +1,5 @@
 <?php
   include('utils/functions.php');
-  session_start();
-  if ($_SESSION && $_SESSION['user']){
-    //user already logged in
-    header('Location: /index.php');
-  }
 
   $provinces = getProvinces();
   $error_msg = isset($_GET['error']) ? $_GET['error'] : '';
